@@ -4,7 +4,7 @@ from selene import browser, be, command, have
 
 
 def test_demoqa():
-    browser.open('/')
+    browser.open('/automation-practice-form')
     browser.element('#firstName').type('Petr')
     browser.element('#lastName').type('Ivanov')
     browser.element('#userEmail').type('petr15@mail.ru')
